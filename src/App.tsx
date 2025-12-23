@@ -45,10 +45,10 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('data:image/svg+xml,%3Csvg width="1920" height="600" xmlns="http://www.w3.org/2000/svg"%3E%3Cdefs%3E%3ClinearGradient id="grad" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:oklch(0.65 0.08 35);stop-opacity:1" /%3E%3Cstop offset="100%25" style="stop-color:oklch(0.55 0.12 195);stop-opacity:1" /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width="1920" height="600" fill="url(%23grad)" /%3E%3C/svg%3E')`,
+            backgroundImage: `url('https://i.imgur.com/8vQZ5qK.jpg')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         </div>
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
