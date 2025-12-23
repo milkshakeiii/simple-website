@@ -322,7 +322,7 @@ function App() {
               </ul>
             </div>
 
-            <div className="text-center">
+            <div className="flex flex-col items-center">
               <a
                 href="https://www.every.org/angola-partnership-inc?method=bank%2Ccard&utm_campaign=donate-link#/donate"
                 className="inline-flex items-center justify-center bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-4 rounded-md font-medium mb-4"
