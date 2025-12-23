@@ -148,7 +148,7 @@ function App() {
             </div>
           </div>
 
-          <div className="prose prose-lg max-w-4xl mx-auto">
+          <div>
             <p className="text-lg leading-relaxed mb-6">
               Operating in a city of 400,000 people (about half of whom are under the age of 18), the Language Institute offers the only local instruction by a first-language English speaker.
             </p>
