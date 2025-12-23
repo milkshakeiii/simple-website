@@ -124,13 +124,29 @@ function App() {
             </Card>
           </div>
 
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+            <div>
+              <p className="text-lg leading-relaxed mb-6">
+                The purpose of The Angola Partnership is to support people in Africa through education. Since 2018, we have worked with The Language Institute in Huambo, Angola, to help people improve their lives by developing their educational, professional, and economic opportunities through English acquisition.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                After emerging in 2002 from a long civil war, Angola has been increasingly integrating into the global economy. People in Angola who develop solid English capability are more likely to advance in education and succeed in the challenging professional employment environment.
+              </p>
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop" 
+                alt="Students learning at the Language Institute"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+
           <div className="prose prose-lg max-w-4xl mx-auto">
             <p className="text-lg leading-relaxed mb-6">
-              The purpose of The Angola Partnership is to support people in Africa through education. Since 2018, we have worked with The Language Institute in Huambo, Angola, to help people improve their lives by developing their educational, professional, and economic opportunities through English acquisition.
-            </p>
-            
-            <p className="text-lg leading-relaxed mb-6">
-              After emerging in 2002 from a long civil war, Angola has been increasingly integrating into the global economy. People in Angola who develop solid English capability are more likely to advance in education and succeed in the challenging professional employment environment. Operating in a city of 400,000 people (about half of whom are under the age of 18), the Language Institute offers the only local instruction by a first-language English speaker.
+              Operating in a city of 400,000 people (about half of whom are under the age of 18), the Language Institute offers the only local instruction by a first-language English speaker.
             </p>
             
             <p className="text-lg leading-relaxed">
@@ -202,11 +218,27 @@ function App() {
             </Card>
           </div>
 
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+            <div className="rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
+              <img 
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" 
+                alt="Language Institute classroom in Huambo"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
+            <div className="order-1 md:order-2">
+              <p className="text-lg leading-relaxed mb-6">
+                As a non-sectarian social mission of the Evangelical Congregational Church in Angola (IECA), the Language Institute is dedicated to providing quality English instruction to all who make the commitment to the program, regardless of faith or ability to pay.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                Income from a modest fee covers part of the Language Institute expenses, but outside support is needed to make the program accessible and sustainable.
+              </p>
+            </div>
+          </div>
+
           <div className="prose prose-lg max-w-4xl mx-auto">
-            <p className="text-lg leading-relaxed mb-6">
-              As a non-sectarian social mission of the Evangelical Congregational Church in Angola (IECA), the Language Institute is dedicated to providing quality English instruction to all who make the commitment to the program, regardless of faith or ability to pay. Income from a modest fee covers part of the Language Institute expenses, but outside support is needed to make the program accessible and sustainable.
-            </p>
-            
             <p className="text-lg leading-relaxed">
               IECA, a 1.5 million member denomination, provides no-cost instructional space as well as free housing for the teacher, keeping the overall operational costs of the Language Institute low. Other than the teacher, all employees—the Director, Financial Assistant, Sexton, and Security Guard—are local residents of Huambo. It is noteworthy that the Director of the program is a perfect example of the importance of English proficiency, as he learned English from missionaries when young, and has earned a master's degree from Princeton and a doctoral degree from McCormick Theological Seminary.
             </p>
@@ -221,16 +253,28 @@ function App() {
             <Separator className="w-24 mx-auto bg-primary h-1 rounded" />
           </div>
 
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-primary/5 to-accent/5 border-2 border-primary/10 mb-12">
-            <blockquote className="text-xl md:text-2xl italic text-center leading-relaxed">
-              "When talking with young people in Angola, one often hears of the dreams they have for the future: the opportunity to get an education, the ability to support their multigenerational families, the hope of discovering more of the world's knowledge and experience. Sadly, one also often hears that 'Angola is a place where dreams never come true.'"
-            </blockquote>
-            <p className="text-center mt-6 text-lg font-semibold text-primary">
-              The Angola Partnership, Inc., is committed to helping Angolans realize their dreams through offering quality English instruction and opening doors to educational and professional achievement.
-            </p>
-          </Card>
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <Card className="p-8 md:p-10 bg-gradient-to-br from-primary/5 to-accent/5 border-2 border-primary/10">
+                <blockquote className="text-xl md:text-2xl italic leading-relaxed mb-6">
+                  "When talking with young people in Angola, one often hears of the dreams they have for the future: the opportunity to get an education, the ability to support their multigenerational families, the hope of discovering more of the world's knowledge and experience. Sadly, one also often hears that 'Angola is a place where dreams never come true.'"
+                </blockquote>
+                <p className="text-lg font-semibold text-primary">
+                  The Angola Partnership, Inc., is committed to helping Angolans realize their dreams through offering quality English instruction and opening doors to educational and professional achievement.
+                </p>
+              </Card>
+            </div>
 
-          <div className="prose prose-lg max-w-4xl mx-auto">
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop" 
+                alt="Students at the Language Institute"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+
+          <div className="prose prose-lg max-w-4xl mx-auto text-center">
             <p className="text-lg leading-relaxed">
               Gifts to The Angola Partnership will sustain the work of the Language Institute and allow us to increase enrollment for students who could not otherwise afford the program. The students will benefit from rigorous coursework in the study of English, opening up a world of economic opportunities.
             </p>
