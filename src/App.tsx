@@ -294,7 +294,7 @@ function App() {
           <Card className="p-8 md:p-12 border-2 border-accent/20 shadow-xl">
             <div className="text-center mb-8">
               <Heart size={64} weight="fill" className="text-accent mx-auto mb-4" />
-              <h3 className="text-2xl font-semibold mb-4">Make a Difference Today</h3>
+              <h3 className="text-2xl font-semibold mb-4">Help Angolans Thrive</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Your donation provides scholarships for students, supports volunteer teachers, and helps make quality English education accessible to all who seek it in Huambo, Angola.
               </p>
