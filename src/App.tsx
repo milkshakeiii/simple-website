@@ -257,16 +257,11 @@ function App() {
             <Separator className="w-24 mx-auto bg-primary h-1 rounded" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-            <div>
-              <Card className="p-8 md:p-10 bg-gradient-to-br from-primary/5 to-accent/5 border-2 border-primary/10">
-                <blockquote className="text-xl md:text-2xl italic leading-relaxed mb-6">
-                  "When talking with young people in Angola, one often hears of the dreams they have for the future: the opportunity to get an education, the ability to support their multigenerational families, the hope of discovering more of the world's knowledge and experience. Sadly, one also often hears that 'Angola is a place where dreams never come true.'"
-                </blockquote>
-                <p className="text-lg font-semibold text-primary">
-                  The Angola Partnership, Inc., is committed to helping Angolans realize their dreams through offering quality English instruction and opening doors to educational and professional achievement.
-                </p>
-              </Card>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div className="space-y-6">
+              <blockquote className="text-lg md:text-xl italic leading-relaxed">
+                "When talking with young people in Angola, one often hears of the dreams they have for the future: the opportunity to get an education, the ability to support their multigenerational families, the hope of discovering more of the world's knowledge and experience. Sadly, one also often hears that 'Angola is a place where dreams never come true.'"
+              </blockquote>
             </div>
 
             <div className="rounded-lg overflow-hidden shadow-xl">
@@ -278,7 +273,10 @@ function App() {
             </div>
           </div>
 
-          <div className="prose prose-lg max-w-4xl mx-auto text-center">
+          <div className="max-w-full">
+            <p className="text-xl md:text-2xl font-semibold text-primary leading-relaxed mb-8">
+              The Angola Partnership, Inc., is committed to helping Angolans realize their dreams through offering quality English instruction and opening doors to educational and professional achievement.
+            </p>
             <p className="text-lg leading-relaxed">
               Gifts to The Angola Partnership will sustain the work of the Language Institute and allow us to increase enrollment for students who could not otherwise afford the program. The students will benefit from rigorous coursework in the study of English, opening up a world of economic opportunities.
             </p>
