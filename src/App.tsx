@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
+import heroImage from "@/assets/images/IMG-20250315-WA0002.jpg"
+import adultStudentsImage from "@/assets/images/Class_of_adult_English_students_in_Huambo.jpg"
+import teenStudentsImage from "@/assets/images/Teenage_English_students_in_Huambo.jpg"
+import classroomImage from "@/assets/images/IMG-20241207-WA0027.jpg"
 
 function App() {
   const scrollToSection = (id: string) => {
@@ -45,7 +49,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://i.imgur.com/8vQZ5qK.jpg')`,
+            backgroundImage: `url('${heroImage}')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
@@ -137,7 +141,7 @@ function App() {
 
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop" 
+                src={adultStudentsImage} 
                 alt="Students learning at the Language Institute"
                 className="w-full h-auto object-cover"
               />
@@ -221,7 +225,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
             <div className="rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" 
+                src={classroomImage} 
                 alt="Language Institute classroom in Huambo"
                 className="w-full h-auto object-cover"
               />
@@ -267,7 +271,7 @@ function App() {
 
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop" 
+                src={teenStudentsImage} 
                 alt="Students at the Language Institute"
                 className="w-full h-auto object-cover"
               />
