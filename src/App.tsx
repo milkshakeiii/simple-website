@@ -111,7 +111,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-semibold mb-3">Opportunity</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Opening doors to professional and economic advancement in the global economy
+                Opening doors to professional and economic advancement
               </p>
             </Card>
 
