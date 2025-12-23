@@ -77,7 +77,7 @@ function App() {
               className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6"
             >
               <Heart size={24} weight="fill" className="mr-2" />
-              Make a Difference
+              Make a Donation
             </Button>
           </div>
         </div>
