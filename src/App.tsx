@@ -323,8 +323,16 @@ function App() {
             </div>
 
             <div className="text-center">
-              <p className="text-sm text-muted-foreground mb-4">
-                For donation information, please contact us at the email below
+              <Button
+                size="lg"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 mb-4"
+                onClick={() => window.open('https://www.every.org/angola-partnership-inc?method=bank%2Ccard&utm_campaign=donate-link#/donate', '_blank')}
+              >
+                <Heart size={24} weight="fill" className="mr-2" />
+                Click Here to Donate
+              </Button>
+              <p className="text-sm text-muted-foreground">
+                or email <a href="mailto:theangolapartnership@gmail.com" className="underline hover:text-foreground">theangolapartnership@gmail.com</a> with any questions
               </p>
             </div>
           </Card>
