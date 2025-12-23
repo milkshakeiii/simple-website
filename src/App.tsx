@@ -364,7 +364,7 @@ function App() {
             <span className="font-semibold text-background">The Angola Partnership, Inc.</span>
           </div>
           <p className="text-sm">
-            A nonprofit organization supporting English education in Huambo, Angola
+            The Angola Partnership is a registered 501(c)(3) nonprofit organization in the United States of America supporting English education in Huambo, Angola
           </p>
           <p className="text-sm mt-2">
             © {new Date().getFullYear()} The Angola Partnership. All rights reserved.
