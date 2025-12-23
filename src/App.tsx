@@ -123,7 +123,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-semibold mb-3">Community</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Partnering with local leaders and IECA to serve all students regardless of ability to pay
+                Partnering with local residents and IECA to serve all students regardless of ability to pay
               </p>
             </Card>
           </div>
