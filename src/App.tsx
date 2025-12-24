@@ -99,7 +99,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-semibold mb-3">Education</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Quality English instruction by first-language speakers in Huambo, Angola
+                Offering quality English instruction by first-language speakers in Huambo, Angola
               </p>
             </Card>
 
@@ -135,7 +135,7 @@ function App() {
               </p>
               
               <p className="text-lg leading-relaxed">
-                After emerging in 2002 from a long civil war, Angola has been increasingly integrating into the global economy. People in Angola who develop solid English capability are more likely to advance in education and succeed in the challenging professional employment environment.
+                After emerging in 2002 from a long civil war, Angola has been increasingly integrating into the global economy. People in Angola who develop English proficiency are more likely to advance in education and succeed in the challenging professional employment environment.
               </p>
             </div>
 
@@ -244,7 +244,7 @@ function App() {
 
           <div className="prose prose-lg max-w-4xl mx-auto">
             <p className="text-lg leading-relaxed">
-              IECA, a 1.5 million member denomination, provides no-cost instructional space as well as free housing for the teacher, keeping the overall operational costs of the Language Institute low. Other than the teacher, all employees—the Director, Financial Assistant, Sexton, and Security Guard—are local residents of Huambo. It is noteworthy that the Director of the program is a perfect example of the importance of English proficiency, as he learned English from missionaries when young, and has earned a master's degree from Princeton and a doctoral degree from McCormick Theological Seminary.
+              IECA, a 1.5 million member denomination, provides no-cost instructional space as well as free housing for the teacher, keeping the overall operational costs of the Language Institute low. Other than the teacher, all employees—the Director, Financial Assistant, Sexton, and Security Guard—are local residents of Huambo. The Director of the program is a perfect example of the importance of English proficiency, as he learned English from missionaries when young, and has earned a master's degree from Princeton and a doctoral degree from McCormick Theological Seminary.
             </p>
           </div>
         </div>
@@ -261,6 +261,7 @@ function App() {
             <div className="space-y-6">
               <blockquote className="text-lg md:text-xl italic leading-relaxed">
                 "When talking with young people in Angola, one often hears of the dreams they have for the future: the opportunity to get an education, the ability to support their multigenerational families, the hope of discovering more of the world's knowledge and experience. Sadly, one also often hears that 'Angola is a place where dreams never come true.'"
+                <footer className="text-base mt-4 not-italic text-muted-foreground">— Mike Solberg, President of the Angola Partnership</footer>
               </blockquote>
             </div>
 
