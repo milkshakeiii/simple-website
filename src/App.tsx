@@ -207,12 +207,14 @@ function App() {
                 <div>
                   <p className="font-semibold">Rev. Dr. Coutinho Moma</p>
                   <p className="text-muted-foreground text-sm">Director, Language Institute</p>
-                  <p className="text-sm mt-1">Princeton MA, McCormick ThD, also teaches Umbundu</p>
+                  <p className="text-muted-foreground text-sm">Umbundu Instructor, Language Institute</p>
+                  <p className="text-sm mt-1">Princeton University, MA</p>
+                  <p className="text-sm">McCormick Theological Seminary, ThD</p>
                 </div>
                 <div>
                   <p className="font-semibold">Catherine Ramey</p>
-                  <p className="text-muted-foreground text-sm">PhD Candidate, University of Waterloo</p>
-                  <p className="text-sm mt-1">Long-term commitment to quality instruction</p>
+                  <p className="text-muted-foreground text-sm">Teacher, Language Institute</p>
+                  <p className="text-sm mt-1">University of Waterloo, PhD Candidate</p>
                 </div>
                 <div>
                   <p className="font-semibold">Rev. Dr. James Michael Solberg</p>
