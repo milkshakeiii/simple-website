@@ -210,8 +210,8 @@ function App() {
                   <p className="text-sm mt-1">Princeton MA, McCormick ThD, also teaches Umbundu</p>
                 </div>
                 <div>
-                  <p className="font-semibold">Canadian PhD Candidate</p>
-                  <p className="text-muted-foreground text-sm">Teacher, University of Waterloo</p>
+                  <p className="font-semibold">Catherine Ramey</p>
+                  <p className="text-muted-foreground text-sm">PhD Candidate, University of Waterloo</p>
                   <p className="text-sm mt-1">Long-term commitment to quality instruction</p>
                 </div>
                 <div>
