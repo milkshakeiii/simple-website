@@ -322,6 +322,10 @@ function App() {
                   <span className="text-accent font-bold">•</span>
                   <span>Open doors to educational and professional opportunities</span>
                 </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">•</span>
+                  <span>If your employer has a matching program, you might be able to double your donation. We are Benevity Certified ("Angola Partnership Inc") and will register with other platforms as needed.</span>
+                </li>
               </ul>
             </div>
 
